@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f8fc" />
+    <meta name="description" content="Öğrencinin seviyesine ve hedefine göre şekillenen birebir özel dersler. DersRotası ile öğrenme yolunu birlikte planla." />
+    <title>DersRotası | Sana göre öğrenme yolu</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='28' fill='%233b63ef'/%3E%3Cpath d='M20 30c12-6 22-3 30 3v39c-8-6-18-9-30-3zm60 0c-12-6-22-3-30 3v39c8-6 18-9 30-3z' fill='none' stroke='white' stroke-width='6' stroke-linejoin='round'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#icerik">İçeriğe geç</a>
+    <header class="site-header">
+      <div class="wrap nav-wrap">
+        <a class="brand" href="#baslangic" aria-label="DersRotası ana sayfa">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 36 36" fill="none"><path d="M5 9.5c5.3-2.4 9.7-1.1 13 1.4v19c-3.3-2.5-7.7-3.8-13-1.4v-19Zm26 0c-5.3-2.4-9.7-1.1-13 1.4v19c3.3-2.5 7.7-3.8 13-1.4v-19Z" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/><path d="M9 14c2-.5 4-.2 5.5.5M9 18c2-.5 4-.2 5.5.5m12-4.5c-2-.5-4-.2-5.5.5m5.5 3.5c-2-.5-4-.2-5.5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+          <span>Ders<span class="brand-light">Rotası</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Menüyü aç">
+          <span></span><span></span>
+        </button>
+        <nav class="main-nav" id="main-nav" aria-label="Ana menü">
+          <a href="#dersler">Ders alanları</a>
+          <a href="#yaklasim">Nasıl ilerliyoruz?</a>
+          <a href="#sss">Merak edilenler</a>
+          <a class="nav-cta" href="#basvuru">Ön görüşme iste</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="icerik">
+      <section class="hero wrap" id="baslangic">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> BİREBİR ÖZEL DERS</div>
+          <h1>Zorlandığın konu,<br /><em>güçlü olduğun</em><br />yere dönüşsün.</h1>
+          <p class="hero-intro">Herkes aynı yerden başlamaz. Dersleri seviyene, merakına ve ulaşmak istediğin hedefe göre birlikte şekillendirelim.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#basvuru">Ön görüşme iste</a>
+            <a class="text-link" href="#dersler">Ders alanlarını keşfet</a>
+          </div>
+          <div class="hero-note"><span class="note-star" aria-hidden="true">✳</span><span>Birlikte düşün, adım adım ilerle.</span></div>
+        </div>
+        <div class="hero-art" aria-label="Öğrenme yolunun üç adımını gösteren çizim">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-spark spark-one">✳</div><div class="art-spark spark-two">✦</div>
+          <div class="art-card card-back"><span class="mini-label">BUGÜNÜN HEDEFİ</span><div class="fake-lines"><i></i><i></i><i></i></div><div class="tiny-check">✓</div></div>
+          <div class="art-card card-front">
+            <div class="card-top"><span class="card-icon">∑</span><span class="mini-label">ÖĞRENME YOLU</span><span class="card-menu">•••</span></div>
+            <div class="card-title">Bir konu, üç küçük adım.</div>
+            <div class="lesson-steps">
+              <div class="lesson-step"><span class="step-icon step-blue">01</span><span><b>Tanı</b><small>Nerede olduğunu gör</small></span><i class="step-state done">✓</i></div>
+              <div class="lesson-step"><span class="step-icon step-yellow">02</span><span><b>Birlikte çöz</b><small>Fikri örnekle yakala</small></span><i class="step-state current">•</i></div>
+              <div class="lesson-step"><span class="step-icon step-mint">03</span><span><b>Kendin dene</b><small>Bilgiyi güvenle kullan</small></span><i class="step-state"></i></div>
+            </div>
+            <div class="card-footer"><span class="footer-dots"><i></i><i></i><i></i></span><span>Her adım senin ritminde</span></div>
+          </div>
+          <div class="art-bubble bubble-math">x + merak = ✨</div>
+          <div class="art-bubble bubble-note"><span>↗</span> kendi hızında</div>
+        </div>
+        <a class="scroll-cue" href="#dersler" aria-label="Ders alanlarına ilerle"><span></span> AŞAĞI İN</a>
+      </section>
+
+      <section class="subjects-section" id="dersler">
+        <div class="wrap section-pad">
+          <div class="section-heading">
+            <div><div class="eyebrow"><span class="eyebrow-dot"></span> MERAK ETTİĞİN YERDEN BAŞLA</div><h2>Hangi konuda<br /><em>yanındayız?</em></h2></div>
+            <p>İhtiyacın konu eksiğini kapatmak, sınava hazırlanmak ya da öğrendiklerini pekiştirmek olabilir. Önce hedefini tanımlayalım, sonra sana uygun dersi seçelim.</p>
+          </div>
+          <div class="subject-grid">
+            <article class="subject-card subject-blue"><div class="subject-icon">∑</div><div class="subject-meta">SAYISAL</div><h3>Matematik</h3><p>Temelden problem çözmeye, adım adım anlamlandır.</p><a href="#basvuru" class="subject-link" aria-label="Matematik için ön görüşme iste">Dersini konuş <span>+</span></a></article>
+            <article class="subject-card subject-yellow"><div class="subject-icon">⚛</div><div class="subject-meta">SAYISAL</div><h3>Fen Bilimleri</h3><p>Fizik, kimya ve biyolojiyi örneklerle keşfet.</p><a href="#basvuru" class="subject-link" aria-label="Fen Bilimleri için ön görüşme iste">Dersini konuş <span>+</span></a></article>
+            <article class="subject-card subject-pink"><div class="subject-icon">Aa</div><div class="subject-meta">SÖZEL</div><h3>Türkçe & Edebiyat</h3><p>Okuduğunu anlama ve anlatma becerini güçlendir.</p><a href="#basvuru" class="subject-link" aria-label="Türkçe ve Edebiyat için ön görüşme iste">Dersini konuş <span>+</span></a></article>
+            <article class="subject-card subject-mint"><div class="subject-icon">Ab</div><div class="subject-meta">YABANCI DİL</div><h3>İngilizce</h3><p>Dil bilgisini, kelimeleri ve konuşma pratiğini birleştir.</p><a href="#basvuru" class="subject-link" aria-label="İngilizce için ön görüşme iste">Dersini konuş <span>+</span></a></article>
+          </div>
+          <div class="subject-footnote"><span class="footnote-mark">+</span><p>Aradığın ders burada yok mu? <a href="#basvuru">Yine de bize yaz</a>; ihtiyacını birlikte değerlendirelim.</p></div>
+        </div>
+      </section>
+
+      <section class="approach-section" id="yaklasim">
+        <div class="wrap approach-layout section-pad">
+          <div class="approach-intro">
+            <div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> EZBERDEN FAZLASI</div>
+            <h2>Öğrenmek bir<br /><em>yolculuk.</em></h2>
+            <p>Bir konuyu gerçekten kavramak için önce nerede takıldığını anlamak gerekir. Sonra bilgiyi parçalara ayırır, kendi cümlelerinle kurarız.</p>
+            <a class="button button-light" href="#basvuru">Kendi yolunu planla</a>
+            <div class="approach-doodle" aria-hidden="true"><span>?</span><i></i><b>!</b></div>
+          </div>
+          <div class="approach-list">
+            <article class="approach-item"><div class="approach-num">01</div><div><h3>Önce seni tanıyalım</h3><p>Hangi konular kolay geliyor, hangileri biraz daha zaman istiyor? Başlangıç noktanı birlikte bulalım.</p></div><span class="approach-symbol">⌕</span></article>
+            <article class="approach-item"><div class="approach-num">02</div><div><h3>Konuyu görünür kılalım</h3><p>Örnekler, sorular ve küçük alıştırmalarla soyut fikirleri anlaşılır hale getirelim.</p></div><span class="approach-symbol">✎</span></article>
+            <article class="approach-item"><div class="approach-num">03</div><div><h3>Sonra sen anlat</h3><p>Bir şeyi kendi sözlerinle açıklayabiliyorsan, onu gerçekten öğrenmeye başlamışsın demektir.</p></div><span class="approach-symbol">↗</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-section">
+        <div class="wrap quote-wrap"><span class="quote-mark" aria-hidden="true">“</span><blockquote>Her soru, öğrenmenin<br />başladığı yerdir.</blockquote><div class="quote-caption"><span></span> BİR SONRAKİ ADIMIN MERAK OLSUN</div><div class="quote-doodle" aria-hidden="true">∿</div></div>
+      </section>
+
+      <section class="faq-section" id="sss">
+        <div class="wrap faq-layout section-pad">
+          <div class="faq-intro"><div class="eyebrow"><span class="eyebrow-dot"></span> AKLINDAKİLER</div><h2>Başlamadan<br /><em>önce…</em></h2><p>Aklına takılan bir şey varsa, ilk görüşmede üzerinden geçebiliriz.</p></div>
+          <div class="faq-list">
+            <details><summary>Dersler kimler için uygun?<span class="faq-plus"></span></summary><p>Öğrenme hedefini netleştirmek isteyen ve konuları kendi hızında çalışmayı tercih eden öğrenciler için. Sınıf düzeyini ve ihtiyacını ön görüşmede paylaşabilirsin.</p></details>
+            <details><summary>Derslerde nasıl bir yol izleniyor?<span class="faq-plus"></span></summary><p>Önce mevcut seviyeyi ve hedefi konuşuyoruz. Ardından konu anlatımı, örnek çözümü ve öğrencinin kendi denemeleriyle ilerleyen bir plan oluşturuyoruz.</p></details>
+            <details><summary>Hangi konudan başlayacağımı bilmiyorum.<span class="faq-plus"></span></summary><p>Sorun değil. Neyi öğrenmek istediğini ya da nerede zorlandığını anlatman, ilk adımı belirlememize yardımcı olur.</p></details>
+            <details><summary>Ders süresi ve biçimi nasıl belirleniyor?<span class="faq-plus"></span></summary><p>İhtiyaç, uygunluk ve dersin kapsamına göre ön görüşmede netleştirilir. Sana uyan seçenekleri birlikte değerlendiririz.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="basvuru">
+        <div class="wrap contact-wrap section-pad">
+          <div class="contact-copy"><div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> İLK ADIM KÜÇÜK OLSUN</div><h2>Hedefini<br /><em>konuşalım.</em></h2><p>Kısaca kendinden ve aradığın dersten bahset. Ön görüşme için gönderebileceğin mesajı birlikte hazırlayalım.</p><div class="contact-stamp" aria-hidden="true"><span>Birlikte<br />başlayalım</span><b>✳</b></div></div>
+          <div class="form-panel">
+            <form id="inquiry-form">
+              <div class="form-heading"><span class="form-kicker">ÖN GÖRÜŞME</span><h3>Sana uygun yolu bulalım.</h3><p>Yıldızlı alanlar gerekli.</p></div>
+              <label for="student-name">Adın <span>*</span></label>
+              <input id="student-name" name="name" autocomplete="name" placeholder="Adını yaz" required />
+              <div class="form-row">
+                <div><label for="student-level">Sınıf düzeyin</label><select id="student-level" name="level"><option value="">Seçebilirsin</option><option>İlkokul</option><option>Ortaokul</option><option>Lise</option><option>Üniversite</option><option>Diğer</option></select></div>
+                <div><label for="student-subject">Ders alanı <span>*</span></label><select id="student-subject" name="subject" required><option value="">Seç</option><option>Matematik</option><option>Fen Bilimleri</option><option>Türkçe & Edebiyat</option><option>İngilizce</option><option>Başka bir alan</option></select></div>
+              </div>
+              <label for="student-goal">Hedefin veya sormak istediğin</label>
+              <textarea id="student-goal" name="goal" rows="3" placeholder="Örn. şu konuyu daha iyi anlamak istiyorum…"></textarea>
+              <button class="button button-primary form-submit" type="submit">Mesaj taslağını hazırla</button>
+              <div class="draft-result" id="draft-result" hidden aria-live="polite">
+                <label for="draft-message">Hazır mesajın</label>
+                <textarea id="draft-message" rows="5" readonly></textarea>
+                <button class="copy-button" type="button" id="copy-message">Mesajı kopyala <span aria-hidden="true">⧉</span></button>
+                <p class="form-note">Bu taslağı kopyalayıp tercih ettiğin iletişim kanalından paylaşabilirsin.</p>
+              </div>
+              <p class="form-privacy">Bilgilerin yalnızca bu mesaj taslağını hazırlamak için kullanılır; site üzerinden gönderilmez.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-main"><a class="brand footer-brand" href="#baslangic"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 36 36" fill="none"><path d="M5 9.5c5.3-2.4 9.7-1.1 13 1.4v19c-3.3-2.5-7.7-3.8-13-1.4v-19Zm26 0c-5.3-2.4-9.7-1.1-13 1.4v19c3.3-2.5 7.7-3.8 13-1.4v-19Z" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/></svg></span><span>Ders<span class="brand-light">Rotası</span></span></a><p>Her öğrencinin kendi öğrenme yolu var.</p><a class="footer-top" href="#baslangic">Başa dön</a></div>
+      <div class="wrap footer-bottom"><span>© <span id="year"></span> DersRotası</span><span>Öğrenmeye merakla.</span></div>
+    </footer>
+  </body>
+</html>
