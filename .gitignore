@@ -1,2 +1,4 @@
 /config/db.properties
 /bin/
+**/config/db.properties
+**/bin/
