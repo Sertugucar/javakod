@@ -1,0 +1,4 @@
+# Bu dosyayi config/db.properties olarak kopyalayip yerel MySQL bilgilerinizi yazin.
+db.url=jdbc:mysql://localhost:3306/java_kursu?useSSL=false&serverTimezone=Europe/Istanbul&allowPublicKeyRetrieval=true
+db.user=root
+db.password=MYSQL_SIFRENIZI_BURAYA_YAZIN
